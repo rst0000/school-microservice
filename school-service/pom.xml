@@ -6,7 +6,6 @@
 		<groupId>com.inn.rst</groupId>
 		<artifactId>school-microservice</artifactId>
 		<version>1.0.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inn.rst</groupId>
 	<artifactId>school-service</artifactId>
@@ -18,8 +17,10 @@
 		
 	</properties>
 	<dependencies>
-		<groupId>com.inn.rst</groupId>
-		<artifactId>school-api</artifactId>
-		<version>1.0.0</version>
+		<dependency>
+			<groupId>com.inn.rst</groupId>
+			<artifactId>school-api</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 </project>
