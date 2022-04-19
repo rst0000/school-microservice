@@ -1,3 +1,3 @@
 # school-microservice
 Microservice for maintaining school related data.
-Access-Token - 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
+Access-Token - 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
